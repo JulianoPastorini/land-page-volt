@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça a Volt One: projeto acadêmico de uma landing page de mobilidade elétrica.">
+  <title>VOLT — Seu caminho. Sua liberdade.</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="script.js" defer></script>
+</head>
+<body class="bg-zinc-950 font-sans text-zinc-100 antialiased">
+  <a href="#conteudo" class="sr-only focus:not-sr-only focus:block focus:bg-lime-300 focus:p-4 focus:text-zinc-950">Pular para o conteúdo</a>
+  <header class="border-b border-zinc-800">
+    <div class="mx-auto flex max-w-7xl flex-col gap-5 px-6 py-6 sm:flex-row sm:items-center sm:justify-between lg:px-10">
+      <a href="#inicio" aria-label="Volt, início" class="text-2xl font-black tracking-widest">VOLT<span class="text-lime-300">.</span></a>
+      <nav aria-label="Menu principal" class="flex flex-wrap items-center gap-5 text-sm text-zinc-300 sm:gap-8">
+        <a href="#beneficios" class="hover:text-lime-300">Benefícios</a>
+        <a href="#detalhes" class="hover:text-lime-300">Design</a>
+        <a href="#planos" class="hover:text-lime-300">Planos</a>
+        <a href="#contato" class="rounded-full border border-zinc-600 px-5 py-2 hover:border-lime-300 hover:text-lime-300">Fale com a Volt ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section id="inicio" aria-labelledby="titulo" class="bg-zinc-200 text-zinc-950">
+      <div class="mx-auto grid max-w-7xl items-center gap-4 px-6 pb-8 pt-12 sm:pt-16 lg:grid-cols-2 lg:px-10 lg:py-20">
+        <div>
+          <p class="mb-6 text-xs font-bold uppercase tracking-widest text-zinc-600">Mobilidade elétrica / Volt One</p>
+          <h1 id="titulo" class="text-5xl font-black leading-tight tracking-tight sm:text-6xl lg:text-7xl">Seu caminho.<br>Sua liberdade<span class="text-zinc-500">.</span></h1>
+          <p class="mt-6 max-w-md text-lg leading-relaxed text-zinc-600">Menos trânsito. Mais vida. Uma nova forma de explorar a cidade, com conforto e energia para ir além.</p>
+          <a href="#planos" class="mt-8 inline-flex items-center gap-8 rounded-full bg-zinc-950 px-7 py-4 text-sm font-semibold text-white hover:bg-zinc-700">Conheça a Volt One <span aria-hidden="true">↗</span></a>
+          <p class="mt-8 text-xs uppercase tracking-widest text-zinc-500">100% elétrica · Design urbano</p>
+        </div>
+        <figure class="min-w-0">
+          <img src="assets/scooter.svg" alt="Ilustração lateral da scooter elétrica Volt One em grafite, com duas rodas e detalhes verdes na suspensão" width="800" height="520" class="w-full">
+        </figure>
+      </div>
+    </section>
+    <section id="beneficios" aria-labelledby="titulo-beneficios" class="mx-auto max-w-7xl px-6 py-16 lg:px-10 lg:py-20">
+      <p class="text-xs font-semibold uppercase tracking-widest text-lime-300">Feita para o seu dia</p>
+      <h2 id="titulo-beneficios" class="mt-3 text-3xl font-bold sm:text-4xl">Pequenos trajetos. Grandes possibilidades.</h2>
+      <div class="mt-10 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <article class="rounded-2xl border border-zinc-800 bg-zinc-900 p-8"><span class="text-sm font-mono text-lime-300">01 /</span><h3 class="mt-8 text-xl font-semibold">Energia que acompanha</h3><p class="mt-3 leading-relaxed text-zinc-400">Bateria removível para facilitar a recarga e deixar sua rotina mais prática.</p></article>
+        <article class="rounded-2xl border border-zinc-800 bg-zinc-900 p-8"><span class="text-sm font-mono text-lime-300">02 /</span><h3 class="mt-8 text-xl font-semibold">Conforto em cada curva</h3><p class="mt-3 leading-relaxed text-zinc-400">Assento ergonômico, quadro de fácil acesso e suspensão pensada para a cidade.</p></article>
+        <article class="rounded-2xl border border-zinc-800 bg-zinc-900 p-8"><span class="text-sm font-mono text-lime-300">03 /</span><h3 class="mt-8 text-xl font-semibold">Controle nas suas mãos</h3><p class="mt-3 leading-relaxed text-zinc-400">Painel digital para acompanhar as informações essenciais do seu trajeto.</p></article>
+      </div>
+    </section>
+    <section id="detalhes" aria-labelledby="titulo-detalhes" class="mx-auto grid max-w-7xl gap-5 px-6 pb-16 md:grid-cols-2 lg:px-10">
+      <div class="flex flex-col justify-between rounded-2xl bg-zinc-800 p-8 sm:p-10">
+        <div><p class="text-xs uppercase tracking-widest text-zinc-400">Design inteligente</p><h2 id="titulo-detalhes" class="mt-4 text-3xl font-bold sm:text-4xl">Pensada para a cidade.<br>Feita para você.</h2></div>
+        <p class="mt-12 max-w-sm leading-relaxed text-zinc-300">Linhas simples e detalhes que fazem a diferença. Um novo olhar sobre a mobilidade do dia a dia.</p>
+      </div>
+      <div class="rounded-2xl bg-lime-300 p-8 text-zinc-950 sm:p-10"><p class="text-xs font-bold uppercase tracking-widest">Sua próxima direção</p><p class="mt-8 text-5xl font-black sm:text-6xl">Mais leve.<br>Mais livre.</p><a href="#contato" class="mt-10 inline-block border-b border-zinc-950 pb-2 font-semibold hover:text-zinc-600">Quero conhecer de perto ↗</a></div>
+    </section>
+    <section id="planos" aria-labelledby="titulo-planos" class="border-y border-zinc-800 bg-zinc-900">
+      <div class="mx-auto max-w-7xl px-6 py-16 lg:px-10">
+        <p class="text-xs uppercase tracking-widest text-lime-300">Escolha seu caminho</p><h2 id="titulo-planos" class="mt-3 text-3xl font-bold sm:text-4xl">Uma Volt para cada rotina.</h2>
+        <p class="mt-4 text-zinc-400">Planos ilustrativos para este projeto acadêmico.</p>
+        <div class="mt-10 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <article class="flex flex-col rounded-2xl border border-zinc-700 bg-zinc-950 p-8"><h3 class="text-xl font-semibold">Essencial</h3><p class="mt-2 text-sm text-zinc-400">Para começar a explorar.</p><p class="mt-7 text-4xl font-bold">R$ 299<span class="text-sm font-normal text-zinc-400"> / mês</span></p><ul class="my-8 space-y-3 text-sm text-zinc-300"><li><span class="mr-2 text-lime-300" aria-hidden="true">✓</span>Scooter para uso urbano</li><li><span class="mr-2 text-lime-300" aria-hidden="true">✓</span>Carregador incluso</li><li><span class="mr-2 text-lime-300" aria-hidden="true">✓</span>Suporte por e-mail</li></ul><a href="#contato" class="mt-auto rounded-full bg-lime-300 px-5 py-3 text-center font-semibold text-zinc-950 hover:bg-lime-200">Tenho interesse</a></article>
+          <article class="flex flex-col rounded-2xl border border-lime-300 bg-zinc-950 p-8"><h3 class="text-xl font-semibold">Urbano</h3><p class="mt-2 text-sm text-zinc-400">Para acompanhar sua rotina.</p><p class="mt-7 text-4xl font-bold">R$ 399<span class="text-sm font-normal text-zinc-400"> / mês</span></p><ul class="my-8 space-y-3 text-sm text-zinc-300"><li><span class="mr-2 text-lime-300" aria-hidden="true">✓</span>Tudo do plano Essencial</li><li><span class="mr-2 text-lime-300" aria-hidden="true">✓</span>Manutenção preventiva</li><li><span class="mr-2 text-lime-300" aria-hidden="true">✓</span>Suporte prioritário</li></ul><a href="#contato" class="mt-auto rounded-full bg-lime-300 px-5 py-3 text-center font-semibold text-zinc-950 hover:bg-lime-200">Tenho interesse</a></article>
+          <article class="flex flex-col rounded-2xl border border-zinc-700 bg-zinc-950 p-8"><h3 class="text-xl font-semibold">Liberdade</h3><p class="mt-2 text-sm text-zinc-400">Para ir além todos os dias.</p><p class="mt-7 text-4xl font-bold">R$ 499<span class="text-sm font-normal text-zinc-400"> / mês</span></p><ul class="my-8 space-y-3 text-sm text-zinc-300"><li><span class="mr-2 text-lime-300" aria-hidden="true">✓</span>Tudo do plano Urbano</li><li><span class="mr-2 text-lime-300" aria-hidden="true">✓</span>Bateria adicional</li><li><span class="mr-2 text-lime-300" aria-hidden="true">✓</span>Atendimento personalizado</li></ul><a href="#contato" class="mt-auto rounded-full bg-lime-300 px-5 py-3 text-center font-semibold text-zinc-950 hover:bg-lime-200">Tenho interesse</a></article>
+        </div>
+      </div>
+    </section>
+    <section id="contato" aria-labelledby="titulo-contato" class="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-2 lg:gap-20 lg:px-10 lg:py-20">
+      <div><p class="text-xs uppercase tracking-widest text-lime-300">Vamos conversar</p><h2 id="titulo-contato" class="mt-4 text-4xl font-bold sm:text-5xl">Seu próximo trajeto<br>começa aqui.</h2><p class="mt-6 max-w-sm leading-relaxed text-zinc-400">Quer saber mais? Preencha o formulário para demonstrar seu interesse.</p><p class="mt-8 text-sm text-zinc-500">Demonstração acadêmica: os dados não são enviados nem armazenados.</p></div>
+      <form id="form-contato" class="space-y-5" aria-describedby="aviso-form">
+        <div><label for="nome" class="mb-2 block text-sm font-medium">Nome</label><input id="nome" name="nome" type="text" autocomplete="name" required minlength="2" placeholder="Como podemos chamar você?" class="w-full rounded-xl border border-zinc-700 bg-zinc-900 px-4 py-3 text-white placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-lime-300"></div>
+        <div><label for="email" class="mb-2 block text-sm font-medium">E-mail</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="voce@exemplo.com" class="w-full rounded-xl border border-zinc-700 bg-zinc-900 px-4 py-3 text-white placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-lime-300"></div>
+        <div><label for="mensagem" class="mb-2 block text-sm font-medium">Mensagem</label><textarea id="mensagem" name="mensagem" rows="4" required minlength="10" placeholder="Conte o que você gostaria de saber…" class="w-full rounded-xl border border-zinc-700 bg-zinc-900 px-4 py-3 text-white placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-lime-300"></textarea></div>
+        <button type="submit" class="w-full cursor-pointer rounded-full bg-lime-300 px-6 py-4 font-semibold text-zinc-950 hover:bg-lime-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-zinc-950">Enviar mensagem ↗</button>
+        <p id="aviso-form" role="status" aria-live="polite" class="text-sm text-lime-300">Este formulário simula um envio.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="border-t border-zinc-800">
+    <div class="mx-auto flex max-w-7xl flex-col gap-8 px-6 py-10 sm:flex-row sm:items-center sm:justify-between lg:px-10">
+      <div><a href="#inicio" class="text-2xl font-black tracking-widest">VOLT<span class="text-lime-300">.</span></a><p class="mt-3 text-xs text-zinc-500">© 2026 Volt. Marca fictícia · Projeto acadêmico.</p></div>
+      <nav aria-label="Links do rodapé" class="flex flex-wrap gap-5 text-sm text-zinc-400"><a href="#beneficios" class="hover:text-white">Benefícios</a><a href="#planos" class="hover:text-white">Planos</a><a href="#contato" class="hover:text-white">Contato</a></nav>
+      <nav aria-label="Redes sociais — links demonstrativos" class="flex gap-5 text-sm text-zinc-400"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="hover:text-lime-300">Instagram ↗</a><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="hover:text-lime-300">YouTube ↗</a></nav>
+    </div>
+  </footer>
+</body>
+</html>
